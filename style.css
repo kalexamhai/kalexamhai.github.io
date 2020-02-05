@@ -1,0 +1,94 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+.header{
+  background-color: black;  
+  color: white;
+  box-shadow: 0px 0px 20px black;
+}
+.banner{
+  background-color: rgb(0,45,65);
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.sems{
+	font-size: 35px;
+  margin-top: 180px;
+}
+.sems a:link,a:visited{ 
+	background-color: rgb(0,45,65);
+  margin: 20px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  width: 170px;
+  line-height: 160px;
+  border-radius: 50%;
+}
+.sems a:hover {
+	background-color: white;
+  margin: 15px;
+  color: rgb(0,45,65); 
+  font-weight: bold;
+  width: 180px;
+  line-height: 170px;
+  transition: 0.2s;
+}
+.fa:before{
+  color: white;
+}
+.subs{
+	font-size: 25px;
+	text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.subs a:link,a:visited{ 
+	background-color: rgb(0,45,65);
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  width: 500px;
+  border-radius: 50px;
+}
+.subs a:hover {
+	background-color: white;
+  margin: 20px 10px 20px 10px;
+  color: rgb(0,45,65); 
+  width: 520px; 	
+  font-weight: bold;
+  transition: 0.2s;
+}
+.msg{
+  color: white;
+  background-color: rgb(0,45,65);
+}
+@media only screen and (min-width: 1081px) {
+  .ni {
+    margin-left: 580px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner h2{
+    font-size: 22px;
+  }
+  .sems{
+    margin-top: 100px;
+  }
+  .subs{
+    margin-top: 110px;
+    margin-bottom: 60px;
+  }
+  .subs a:link,a:visited{
+    font-size: 16px;
+    width:300px;
+  }
+  .blockquote{
+    font-size: 1rem;
+  }
+}
