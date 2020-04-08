@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Toolbar from '../Toolbar/Toolbar';
-import Contents from '../Contents/Content';
+import Contents from '../Contents/Contents';
 import Footer from '../Footer/Footer';
 import classes from './Layout.css';
 

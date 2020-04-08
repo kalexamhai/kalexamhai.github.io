@@ -5,7 +5,8 @@ class Footer extends Component{
     render () {
         return (
             <div className = {classes.Footer}>
-                Footer
+                <p>Ab bas previous year kar ja. Pass ho jayega!</p>
+                <span>- Someone famous in <cite>Source Titles</cite></span>
             </div>
         )
     }

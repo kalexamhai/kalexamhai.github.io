@@ -3,7 +3,7 @@
     font-size: 25px;
     box-sizing: border-box;
     display: flex;
-    margin : 0px auto;
+    margin : 0px auto 0px 15px;
 }
 .Name p{    
     margin: 0px;

@@ -3,8 +3,18 @@
     color: #fff;
     box-shadow: 0px 0px 20px black;
     text-align: center;
-    padding-top: 50px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
     bottom: 0;
     position: fixed;
     width: 100%;
+    height: auto;
+}
+.Footer p{
+    font-size: 1.25rem;
+    margin: 15px auto;
+}
+.Footer span{
+    font-size: 1rem;
+    color: #6c757d;
 }

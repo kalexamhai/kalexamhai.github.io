@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import classes from './Contents.css'
+import classes from './Lists.css';
+import axios from '../../../axios-items';
 
-class Department extends Component{
+class Contents extends Component{
     render () {
         return (
             <div className = {classes.Contents}>
-                Department
+                Lists
             </div>
         )
     }
 }
 
-export default Department;
+export default Contents;
