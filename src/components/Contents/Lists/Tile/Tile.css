@@ -1,0 +1,20 @@
+.Department{
+	font-size: 35px;
+	background-color: rgb(0,45,65);
+    margin: 30px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width: 170px;
+    line-height: 160px;
+    border-radius: 50%;
+}
+.Department:hover {
+	background-color: white;
+    margin: 25px;
+    color: rgb(0,45,65); 
+    font-weight: bold;
+    width: 180px;
+    line-height: 170px;
+    transition: 0.2s;
+}
