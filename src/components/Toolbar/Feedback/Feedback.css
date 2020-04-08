@@ -1,0 +1,7 @@
+.Feedback{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: auto 0px;
+}

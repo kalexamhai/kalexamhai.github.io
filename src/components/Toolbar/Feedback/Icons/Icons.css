@@ -1,0 +1,11 @@
+.Icons{
+    color: #fff;
+    margin: auto;
+    margin-left: 5px;
+}
+.Icons a{    
+    margin: auto 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+}

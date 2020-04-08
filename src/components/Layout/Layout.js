@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Toolbar from '../Toolbar/Toolbar';
-import Departments from '../Departments/Departments';
+import Contents from '../Contents/Content';
 import Footer from '../Footer/Footer';
 import classes from './Layout.css';
 
@@ -9,7 +9,7 @@ class Layout extends Component{
         return (
             <div className = {classes.Layout}>
                 <Toolbar/>
-                <Departments/>
+                <Contents/>
                 <Footer/>
             </div>
         )
